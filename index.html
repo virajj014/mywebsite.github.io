@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coders Hub</title>
+    <link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS\nav_bar.css" />
+    <link rel="stylesheet" href="CSS/dashboard_slider.css" />
+    <link rel="stylesheet" href="CSS/slider-banner.css">
+    <link rel="stylesheet" href="CSS/my-courses.css">
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    hr {
+      border: none;
+      border-bottom: 1px solid rgb(209, 207, 207);
+      margin: 0px;
+    }
+
+
+
+  </style>
+  </style>
+  <body>
+    <audio
+      id="pop-sound"
+      src="sounds/UI Hover (Among Us Menu Button) - Sound Effect for editing (mp3cut.net).mp3"
+    ></audio>
+
+    <nav>
+      <img src="images/logo.png" alt="" />
+      <div class="nav-items">
+        <!-- <a onmouseover="myaudio()" href="index1.html">Home</a>
+        <a onmouseover="myaudio()" href="#tutorials">Courses</a>
+        <a onmouseover="myaudio()" href="#roadmap">Roadmaps</a>
+        <a onmouseover="myaudio()" href="#Mentorship">Mentorship</a>
+        <a onmouseover="myaudio()" href="#About">About</a>
+        <a onmouseover="myaudio()" href="#contact">Contact</a> -->
+
+        
+      
+
+    <div class="more-section">
+      <div class="morebtn" onclick="hamburgerclick()" onmouseover="myaudio()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+        >
+          >
+          <path
+            d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"
+          ></path>
+        </svg>
+      </div>
+
+
+      <div class="more-menu" id="moremenu-id">
+        <a onmouseover="myaudio()" href="index1.html" class="menu-items" >Home</a>
+        <a onmouseover="myaudio()" href="#tutorials" class="menu-items">Courses</a>
+        <a onmouseover="myaudio()" href="#roadmap" class="menu-items">Roadmaps</a>
+        <a onmouseover="myaudio()" href="#Mentorship" class="menu-items">Mentorship</a>
+        <a onmouseover="myaudio()" href="#About" class="menu-items">About</a>
+        <a onmouseover="myaudio()" href="#contact" class="menu-items">Contact</a>
+      </div>
+    </div>
+
+    <div class="search-bar">
+          <div
+            class="search-icon"
+            onclick="mysearchbar()"
+            onmouseover="myaudio()"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000000"
+              viewBox="0 0 50 50"
+              width="50px"
+              height="50px"
+            >
+              <path
+                d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"
+              />
+            </svg>
+          </div>
+          <div class="search-textbox">
+            <input
+              type="text"
+              name="searchbox"
+              id="search-box"
+              placeholder="Search Courses..."
+            />
+          </div>
+        </div>
+    </nav>
+    <hr />
+
+    <!-- Slideshow container -->
+     <div class="myslideshow">
+      <div class="slideshow-container"></div>
+    </div>
+
+  <div class="courses_section">
+      <h1>Our Courses</h1>
+      <div class="mycourses">
+        <div class="mycard">
+          <div class="car_img"><img src="courses/programming.png" alt="" /></div>
+          <div class="card_content">
+            <h1>Programming</h1>
+          </div>
+          <hr />
+          <button class="explorebutton">Explore ></button>
+        </div>
+
+        <div class="mycard">
+          <div class="car_img"><img src="courses/Web Development.png" alt="" /></div>
+          <div class="card_content">
+            <h1>Web Development</h1>
+          </div>
+          <hr />
+          <button class="explorebutton">Explore ></button>
+        </div>
+
+        <div class="mycard">
+          <div class="car_img"><img src="courses/Cyber Security.png" alt="" /></div>
+          <div class="card_content">
+            <h1>Cyber Security</h1>
+          </div>
+          <hr />
+          <button class="explorebutton">Explore ></button>
+        </div>
+
+        <div class="mycard">
+          <div class="car_img"><img src="courses/Graphics Design.png" alt="" /></div>
+          <div class="card_content">
+            <h1>Graphics Design</h1>
+          </div>
+          <hr />
+
+          <button class="explorebutton">Explore ></button>
+        </div>
+
+        <div class="mycard">
+          <div class="car_img"><img src="courses/App Development.png" alt="" /></div>
+          <div class="card_content">
+            <h1>App Development</h1>
+          </div>
+          <hr />
+
+          <button class="explorebutton">Explore ></button>
+        </div>
+
+        <div class="mycard">
+          <div class="car_img"><img src="courses/Tips & Tricks.png" alt="" /></div>
+          <div class="card_content">
+            <h1>Tips & Tricks</h1>
+          </div>
+          <hr />
+
+          <button class="explorebutton">Explore ></button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="JS/audio-play.js"></script>
+  <script>
+    let searchbarvar = 0;
+    function mysearchbar() {
+      if (searchbarvar == 0) {
+        document.getElementById("search-box").style.display = "flex";
+        searchbarvar = 1;
+      } else if (searchbarvar == 1) {
+        document.getElementById("search-box").style.display = "none";
+        searchbarvar = 0;
+      }
+    }
+
+
+     let myhamburgervar = 1;
+    function hamburgerclick() {
+      if (myhamburgervar == 1) {
+        document.getElementById("moremenu-id").style.display = "flex";
+        myhamburgervar = 0;
+      } else if (myhamburgervar == 0) {
+        document.getElementById("moremenu-id").style.display = "none";
+        myhamburgervar = 1;
+      }
+    }
+  </script>
+</html>

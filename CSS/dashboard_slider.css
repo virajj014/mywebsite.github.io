@@ -1,0 +1,35 @@
+.myslideshow {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /* padding: 20px; */
+}
+.slideshow-container {
+  display: flex;
+  width: 60%;
+  height: 500px;
+
+  justify-content: center;
+  align-items: center;
+  background-image: url("../slider-images/1.png");
+  background-repeat: no-repeat;
+  animation: 20s ease-in 1s infinite alternate both running slider;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url("../slider-images/1.png");
+  }
+  20% {
+    background-image: url("../slider-images/2.png");
+  }
+  40% {
+    background-image: url("../slider-images/3.png");
+  }
+  60% {
+    background-image: url("../slider-images/4.png");
+  }
+  80% {
+    background-image: url("../slider-images/5.png");
+  }
+}
